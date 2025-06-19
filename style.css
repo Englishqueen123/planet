@@ -1,0 +1,87 @@
+body {
+    background-color: #c8f4d8;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #333;
+    padding: 2rem;
+}
+th {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;}
+
+    #planets th {
+    background-color: #004d25;
+    color: white;
+    padding: 1rem;
+    text-align: center; 
+    }
+
+    th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align:center;
+    unicode-bidi: isolate;
+    }
+    #planets {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+}
+#planets th,
+#planets td {
+    border: 1px solid rgb(124, 120, 120);
+    padding: 25px;
+    text-align: center;
+
+}
+    table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    background-color: #004d15;
+    border: 1px solid white;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    border-radius: 30px;
+    color: white;
+}
+.planet:hover {
+    transform: scale(1.6);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    border: none;
+}
+.planet {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+     width: 100px; 
+    height: 100px;
+    object-fit: cover;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    text-align: center;
+    padding: 20px;
+}
+
